@@ -1,0 +1,12 @@
+<h1 align="center">C'est la page Data</h1>
+<h1>Professeur</h1>
+<tr th:text= "${prof}"></tr>
+<h1>Classe:</h1>
+<tr th:text= "${cl}"></tr>
+<h1>Numero:</h1>
+<tr th:text= "${num}"></tr>
+
+<ul th:each=" n:${noms}">
+<li th:text="${n}">  </li>
+
+</ul>
